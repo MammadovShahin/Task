@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="../css/style.css">
     <script src="https://kit.fontawesome.com/4ee903719a.js" crossorigin="anonymous"></script>
     <script src="../js/app.js" defer></script>
+
     <title>Basket</title>
 </head>
-<body>
+<body onload="myFunction()">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="../index.html">Navbar</a>
@@ -28,25 +29,25 @@
         </div>
     </nav>
     <div class="container">
-        <table class="table">
+        <table class="table table-dark">
             <thead>
               <tr>
-                <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
+                <th scope="col">Tittle</th>
+                <th scope="col">Description</th>
+                <th scope="col">Image</th>
+                <th scope="col">Price</th>
+                <th scope="col">Count</th>
+                <th scope="col">Delete</th>
               </tr>
             </thead>
             <tbody>
-               
+              
             </tbody>
           </table>
     </div>
-    <div class="icon">
-        <a href="pages/basket.html">
-            <i class="fas fa-shopping-basket"></i> 
-            <sup>0</sup>
-        </a>
+    <div class="Main">
+        <p><i>There is currently no product</i></p>
+        <a href="../index.html"><button><i>Add Product</i></button></a>
     </div>
 </body>
 </html>

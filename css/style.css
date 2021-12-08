@@ -31,7 +31,41 @@
     background-color: red;
     color: #fff;
     padding: 2px 10px;
+}
+.table{
+    text-align: center;
+    margin-top: 5%;
+}
+.table .btn{
+    margin-top: 10px;
+    background-color: red !important;
+    color: #fff !important;
+    margin: 3px;
+    border: none;
+}
+.Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15%;
+    display: none;
+}
+.Main p{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+.Main button{
+    padding: 30px 50px;
+    margin-top: 15px;
+    background: teal;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
     
+
 
 }
 
